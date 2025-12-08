@@ -126,7 +126,7 @@ class CustomUserViewSet(viewsets.ModelViewSet):
 
 
 
-    @action(detail=False, methods=['get'], url_path='profile')
+    @action(detail=False, methods=['get'], url_path='profile',permission_classes=[IsAuthenticated])
     def profile(self, request):
         user = request.user
 
