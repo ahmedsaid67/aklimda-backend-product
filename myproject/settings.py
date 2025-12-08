@@ -29,7 +29,13 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = False
 
 
-ALLOWED_HOSTS = ["37.140.242.190", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = [
+    "37.140.242.190",   # IP ile erişim
+    "localhost",
+    "127.0.0.1",
+    "api.arabamuyane.com.tr",  # Backend domaini
+]
+
 
 
 CORS_ALLOWED_ORIGINS = [
