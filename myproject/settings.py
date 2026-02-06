@@ -178,5 +178,5 @@ DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
 
 
 
-PUSHY_API_KEY = config("PUSHY_API_KEY")
+API_KEY = config('API_KEY')
 
